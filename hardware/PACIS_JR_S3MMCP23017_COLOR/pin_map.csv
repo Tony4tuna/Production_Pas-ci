@@ -1,0 +1,26 @@
+Signal,Pin,Direction,Destination,Notes
+BTN_Z1,ESP32 GPIO12,Input,Panel button Zone 1,Original Junior button wiring
+BTN_Z2,ESP32 GPIO14,Input,Panel button Zone 2,Original Junior button wiring
+BTN_Z3,ESP32 GPIO27,Input,Panel button Zone 3,Original Junior button wiring
+BTN_Z4,ESP32 GPIO26,Input,Panel button Zone 4,Original Junior button wiring
+BTN_Z5,ESP32 GPIO25,Input,Panel button Zone 5,Original Junior button wiring
+BTN_PTT,ESP32 GPIO33,Input,PTT button,Button only; no LED
+BTN_WN,ESP32 GPIO32,Input,White noise button,Same W.N. logic as Junior
+RS485_TX,ESP32 GPIO16,Output,MAX3485 DI,Original Junior RS485
+RS485_RX,ESP32 GPIO34,Input,MAX3485 RO,Original Junior RS485
+RS485_EN,ESP32 GPIO13,Output,MAX3485 DE and /RE,HIGH transmit LOW receive
+I2C_SDA,ESP32 GPIO21,Bidir,MCP23017 SDA,For all panel LEDs
+I2C_SCL,ESP32 GPIO22,Output,MCP23017 SCL,For all panel LEDs
+STATUS_LED,ESP32 GPIO2,Output,Local heartbeat/fail LED,Original Junior heartbeat
+LED_Z1_GREEN,MCP23017 GPA0,Output,ULN2803A input,Zone 1 green selected/approved
+LED_Z2_GREEN,MCP23017 GPA1,Output,ULN2803A input,Zone 2 green selected/approved
+LED_Z3_GREEN,MCP23017 GPA2,Output,ULN2803A input,Zone 3 green selected/approved
+LED_Z4_GREEN,MCP23017 GPA3,Output,ULN2803A input,Zone 4 green selected/approved
+LED_Z5_GREEN,MCP23017 GPA4,Output,ULN2803A input,Zone 5 green selected/approved
+LED_WN_GREEN,MCP23017 GPA5,Output,ULN2803A input,White noise green
+LED_Z1_RED,MCP23017 GPB0,Output,ULN2803A input,Zone 1 solid red busy/denied
+LED_Z2_RED,MCP23017 GPB1,Output,ULN2803A input,Zone 2 solid red busy/denied
+LED_Z3_RED,MCP23017 GPB2,Output,ULN2803A input,Zone 3 solid red busy/denied
+LED_Z4_RED,MCP23017 GPB3,Output,ULN2803A input,Zone 4 solid red busy/denied
+LED_Z5_RED,MCP23017 GPB4,Output,ULN2803A input,Zone 5 solid red busy/denied
+SPARE_GPB5,MCP23017 GPB5,Output,Spare,White noise is green only
