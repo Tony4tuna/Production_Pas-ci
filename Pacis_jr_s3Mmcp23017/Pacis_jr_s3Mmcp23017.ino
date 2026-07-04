@@ -2,9 +2,9 @@
 /*
 ====================================================================
   Pacis_jr-s3Mmcp23017 - Junior logic with zone bicolor LEDs
-  VERSION: 01.04
-  BUILD: PACIS_JR_S3MMCP23017_COLOR_2026_07_03
-  BUILD TIME: 2026-07-03 22:35:00 -04:00
+  VERSION: 01.05
+  BUILD: PACIS_JR_S3MMCP23017_ALL_MCP_LED_2026_07_03
+  BUILD TIME: 2026-07-03 22:51:01 -04:00
   ESP32-WROOM-32E
   Protocolo PACIS / Penta Token Booth Microphone Station
 =====================================================================
@@ -132,9 +132,9 @@ static const bool dbg = false;
 static uint16_t swt = 100;
 static uint8_t pto = 45;
 static bool osc = false;
-static const char ver[] = "01.04";
-static const char tag[] = "PACIS_JR_S3MMCP23017_COLOR_2026_07_03";
-static const char bld[] = "2026-07-03 22:35:00 -04:00";
+static const char ver[] = "01.05";
+static const char tag[] = "PACIS_JR_S3MMCP23017_ALL_MCP_LED_2026_07_03";
+static const char bld[] = "2026-07-03 22:51:01 -04:00";
 
 // Lugar donde los nombres largos apuntan a los nombres cortos.
 // Esto mantiene la logica PACIS ya probada sin cambiar todo el codigo.

@@ -1,8 +1,8 @@
 # Pacis_jr-s3Mmcp23017
 
-Version: `01.04`
-Build: `PACIS_JR_S3MMCP23017_COLOR_2026_07_03`
-Build time: `2026-07-03 22:35:00 -04:00`
+Version: `01.05`
+Build: `PACIS_JR_S3MMCP23017_ALL_MCP_LED_2026_07_03`
+Build time: `2026-07-03 22:51:01 -04:00`
 
 This sketch keeps the Junior PACIS logic and adapts only the panel hardware behavior.
 
